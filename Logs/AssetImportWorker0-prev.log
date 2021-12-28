@@ -1,0 +1,813 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.25f1 (9b9180224418) revision 10195328'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 15776 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/sacco/Documents/GitHub/Simple Fireworks VFX
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61864
+Successfully changed project path to: C:/Users/sacco/Documents/GitHub/Simple Fireworks VFX
+C:/Users/sacco/Documents/GitHub/Simple Fireworks VFX
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 64.07 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.25f1 (9b9180224418)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/sacco/Documents/GitHub/Simple Fireworks VFX/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Laptop GPU (ID=0x249d)
+    Vendor:   
+    VRAM:     8044 MB
+    Driver:   30.0.14.9649
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56592
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002259 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 59.65 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.548 seconds
+Domain Reload Profiling:
+	ReloadAssembly (548ms)
+		BeginReloadAssembly (46ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (435ms)
+			LoadAssemblies (44ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (132ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (182ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (60ms)
+				BeforeProcessingInitializeOnLoad (16ms)
+				ProcessInitializeOnLoadAttributes (75ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005736 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 72.83 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.307 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1308ms)
+		BeginReloadAssembly (149ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (1093ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (384ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (408ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (73ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (209ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.95 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3472 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.2 MB.
+System memory in use after: 147.4 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 3904.
+Total: 5.546700 ms (FindLiveObjects: 0.405600 ms CreateObjectMapping: 0.346700 ms MarkObjects: 4.698800 ms  DeleteObjects: 0.094200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/OccaSoftware
+  artifactKey: Guid(712a7092950440348a8c12552af2d577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware using Guid(712a7092950440348a8c12552af2d577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3b0003180cd67765abf3386deaf693e') in 0.016993 seconds 
+  Import took 0.023706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.439630 seconds.
+  path: Assets/OccaSoftware/Realistic 3D Fireworks Effects/Scenes
+  artifactKey: Guid(57728d4192302d04289972052b2dcc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Realistic 3D Fireworks Effects/Scenes using Guid(57728d4192302d04289972052b2dcc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97c476b73187e2b9d0a61bc4390fba97') in 0.009276 seconds 
+  Import took 0.014267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002242 seconds.
+  path: Assets/OccaSoftware/Realistic 3D Fireworks Effects/Prefabs/Firework VFX.prefab
+  artifactKey: Guid(db131f55b11d98e4b83b706599d8b7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Realistic 3D Fireworks Effects/Prefabs/Firework VFX.prefab using Guid(db131f55b11d98e4b83b706599d8b7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0259d266d051570e3118cf1dfb82e64') in 0.185779 seconds 
+  Import took 0.192236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003314 seconds.
+  path: Assets/OccaSoftware/Realistic 3D Fireworks Effects/Scenes/Fireworks Scene.unity
+  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Realistic 3D Fireworks Effects/Scenes/Fireworks Scene.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd2622664b6e70a141863eb8bc8c330') in 0.005929 seconds 
+  Import took 0.010428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002238 seconds.
+  path: Assets/OccaSoftware/Realistic 3D Fireworks Effects/Visual Effects/Firework VFX.vfx
+  artifactKey: Guid(be571d1c849517246b008af7fd43197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Realistic 3D Fireworks Effects/Visual Effects/Firework VFX.vfx using Guid(be571d1c849517246b008af7fd43197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8084305171242f52f1fc329a1495d45b') in 0.004597 seconds 
+  Import took 0.009073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001517 seconds.
+  path: Assets/OccaSoftware/Realistic 3D Fireworks Effects/Visual Effects
+  artifactKey: Guid(5428d8cfd3ec20a48b302aeece1ce461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Realistic 3D Fireworks Effects/Visual Effects using Guid(5428d8cfd3ec20a48b302aeece1ce461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c07de26c3d6a2469cdcd0ae6d95201ea') in 0.005297 seconds 
+  Import took 0.009615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006508 seconds.
+  path: Assets/OccaSoftware/Realistic 3D Fireworks Effects/README-Fireworks-1.0.pdf
+  artifactKey: Guid(2774b4a4921617246bb0b65c7813df43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Realistic 3D Fireworks Effects/README-Fireworks-1.0.pdf using Guid(2774b4a4921617246bb0b65c7813df43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2abc0133384c3bf7b40063efed5382ff') in 0.008575 seconds 
+  Import took 0.013213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002660 seconds.
+  path: Assets/OccaSoftware/Realistic 3D Fireworks Effects
+  artifactKey: Guid(c9acf0f35dc072643a6d339c4482294c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Realistic 3D Fireworks Effects using Guid(c9acf0f35dc072643a6d339c4482294c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef9c6dee1e4dc53e6c78d25e5dfa842') in 0.005105 seconds 
+  Import took 0.009521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002161 seconds.
+  path: Assets/OccaSoftware/Realistic 3D Fireworks Effects/Shaders/Firework VFX Graph.shadergraph
+  artifactKey: Guid(2df09bc6ff81b9e4ba12d1ba6d55a11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Realistic 3D Fireworks Effects/Shaders/Firework VFX Graph.shadergraph using Guid(2df09bc6ff81b9e4ba12d1ba6d55a11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30c74cd9f47894c8fe90c651ad8e113c') in 0.011048 seconds 
+  Import took 0.015385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001407 seconds.
+  path: Assets/OccaSoftware/Realistic 3D Fireworks Effects/Shaders
+  artifactKey: Guid(eae1394d6bafd1d4892aa226f0cf4b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Realistic 3D Fireworks Effects/Shaders using Guid(eae1394d6bafd1d4892aa226f0cf4b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a30ad88829307732eecb52b883356bed') in 0.005233 seconds 
+  Import took 0.009446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001459 seconds.
+  path: Assets/OccaSoftware/Realistic 3D Fireworks Effects/Prefabs
+  artifactKey: Guid(99797dfa689276d4891c3e008466bb7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Realistic 3D Fireworks Effects/Prefabs using Guid(99797dfa689276d4891c3e008466bb7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbaaadddd333b472cdd10736e835f7ca') in 0.005184 seconds 
+  Import took 0.009285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 295.241045 seconds.
+  path: Assets/OccaSoftware/Realistic 3D Fireworks Effects/Prefabs/Firework-Default.prefab
+  artifactKey: Guid(db131f55b11d98e4b83b706599d8b7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Realistic 3D Fireworks Effects/Prefabs/Firework-Default.prefab using Guid(db131f55b11d98e4b83b706599d8b7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeeb158ed303690131fb9d177400236c') in 0.021266 seconds 
+  Import took 0.028450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 99.467590 seconds.
+  path: Assets/OccaSoftware/Realistic 3D Fireworks Effects/Prefabs/Firework VFX (1).prefab
+  artifactKey: Guid(7ee18f92cf3523f43bb4863517ef48d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Realistic 3D Fireworks Effects/Prefabs/Firework VFX (1).prefab using Guid(7ee18f92cf3523f43bb4863517ef48d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2ccca9a19399a0499dcc18864a2c7d1') in 0.016591 seconds 
+  Import took 0.022877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.103921 seconds.
+  path: Assets/OccaSoftware/Realistic 3D Fireworks Effects/Prefabs/Firework-BlueSparkles.prefab
+  artifactKey: Guid(7ee18f92cf3523f43bb4863517ef48d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Realistic 3D Fireworks Effects/Prefabs/Firework-BlueSparkles.prefab using Guid(7ee18f92cf3523f43bb4863517ef48d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9b34e5a5b66b5519121bdf1a0b55844') in 0.018911 seconds 
+  Import took 0.025785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.952800 seconds.
+  path: Assets/OccaSoftware/Realistic 3D Fireworks Effects/Prefabs/Firework-BlueNeon.prefab
+  artifactKey: Guid(7ee18f92cf3523f43bb4863517ef48d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Realistic 3D Fireworks Effects/Prefabs/Firework-BlueNeon.prefab using Guid(7ee18f92cf3523f43bb4863517ef48d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e423a9e4938b2637c69323ce8af4799e') in 0.019002 seconds 
+  Import took 0.025605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.305883 seconds.
+  path: Assets/OccaSoftware/Realistic 3D Fireworks Effects/Prefabs/Firework-WarmSunset.prefab
+  artifactKey: Guid(db131f55b11d98e4b83b706599d8b7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Realistic 3D Fireworks Effects/Prefabs/Firework-WarmSunset.prefab using Guid(db131f55b11d98e4b83b706599d8b7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6467e96ba4e68e73228e4c7cd783e6dc') in 0.018026 seconds 
+  Import took 0.025603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 167.295811 seconds.
+  path: Assets/OccaSoftware/Realistic 3D Fireworks Effects/Prefabs/Firework-WarmSunset 1.prefab
+  artifactKey: Guid(07cd8a2247f6a254fb760c0a87ca5855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Realistic 3D Fireworks Effects/Prefabs/Firework-WarmSunset 1.prefab using Guid(07cd8a2247f6a254fb760c0a87ca5855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d056dfc5759e66680ef0b61c8847209') in 0.017720 seconds 
+  Import took 0.024376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.600840 seconds.
+  path: Assets/OccaSoftware/Realistic 3D Fireworks Effects/Prefabs/Firework-SlimeSurprise.prefab
+  artifactKey: Guid(07cd8a2247f6a254fb760c0a87ca5855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Realistic 3D Fireworks Effects/Prefabs/Firework-SlimeSurprise.prefab using Guid(07cd8a2247f6a254fb760c0a87ca5855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74b62c84740e1d673a8b9bb01b312bd4') in 0.019759 seconds 
+  Import took 0.027425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.056827 seconds.
+  path: Assets/OccaSoftware/Realistic 3D Fireworks Effects/Prefabs/Firework-SlimeSurprise.prefab
+  artifactKey: Guid(07cd8a2247f6a254fb760c0a87ca5855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Realistic 3D Fireworks Effects/Prefabs/Firework-SlimeSurprise.prefab using Guid(07cd8a2247f6a254fb760c0a87ca5855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '603cb6e93472fc21263fe552cce4a28a') in 0.011543 seconds 
+  Import took 0.017852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.763678 seconds.
+  path: Assets/OccaSoftware/Realistic 3D Fireworks Effects/Visual Effects/Firework VFX.vfx
+  artifactKey: Guid(be571d1c849517246b008af7fd43197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Realistic 3D Fireworks Effects/Visual Effects/Firework VFX.vfx using Guid(be571d1c849517246b008af7fd43197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb1816dc46fe0683caa0550453e1c1f') in 0.008215 seconds 
+  Import took 0.013938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.737158 seconds.
+  path: Assets/OccaSoftware/Realistic 3D Fireworks Effects/Visual Effects/Firework VFX.vfx
+  artifactKey: Guid(be571d1c849517246b008af7fd43197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Realistic 3D Fireworks Effects/Visual Effects/Firework VFX.vfx using Guid(be571d1c849517246b008af7fd43197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e138ad4e3969a7e8c809835ebd4bb78') in 0.004807 seconds 
+  Import took 0.010664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.183818 seconds.
+  path: Assets/OccaSoftware/Realistic 3D Fireworks Effects/Visual Effects/Firework VFX.vfx
+  artifactKey: Guid(be571d1c849517246b008af7fd43197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Realistic 3D Fireworks Effects/Visual Effects/Firework VFX.vfx using Guid(be571d1c849517246b008af7fd43197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef363c0056fd9c335488df9cf6d422d4') in 0.005017 seconds 
+  Import took 0.010938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.374873 seconds.
+  path: Assets/OccaSoftware/Realistic 3D Fireworks Effects/Visual Effects/Firework VFX.vfx
+  artifactKey: Guid(be571d1c849517246b008af7fd43197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Realistic 3D Fireworks Effects/Visual Effects/Firework VFX.vfx using Guid(be571d1c849517246b008af7fd43197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9c56b4ed83c91c9841a762910368c56') in 0.005101 seconds 
+  Import took 0.011316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.172250 seconds.
+  path: Assets/OccaSoftware/Realistic 3D Fireworks Effects/Visual Effects/Firework VFX.vfx
+  artifactKey: Guid(be571d1c849517246b008af7fd43197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Realistic 3D Fireworks Effects/Visual Effects/Firework VFX.vfx using Guid(be571d1c849517246b008af7fd43197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c33140f21771fe0e0095735ab1b6e1f3') in 0.004773 seconds 
+  Import took 0.011399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 237.573925 seconds.
+  path: Assets/OccaSoftware/Realistic 3D Fireworks Effects/Prefabs/Firework-SlimeSurprise 1.prefab
+  artifactKey: Guid(0aff0f42088019f4cb6081354fe07f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Realistic 3D Fireworks Effects/Prefabs/Firework-SlimeSurprise 1.prefab using Guid(0aff0f42088019f4cb6081354fe07f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a4ef1f40a0469825cddd51cb3cf7a8e') in 0.018240 seconds 
+  Import took 0.025209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.696388 seconds.
+  path: Assets/OccaSoftware/Realistic 3D Fireworks Effects/Prefabs/Firework-SnowBurst.prefab
+  artifactKey: Guid(0aff0f42088019f4cb6081354fe07f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Realistic 3D Fireworks Effects/Prefabs/Firework-SnowBurst.prefab using Guid(0aff0f42088019f4cb6081354fe07f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50248b3110aa6f06e7233cc638a9a3ba') in 0.018987 seconds 
+  Import took 0.025525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.060788 seconds.
+  path: Assets/OccaSoftware/Realistic 3D Fireworks Effects/Visual Effects/Firework VFX.vfx
+  artifactKey: Guid(be571d1c849517246b008af7fd43197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Realistic 3D Fireworks Effects/Visual Effects/Firework VFX.vfx using Guid(be571d1c849517246b008af7fd43197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f7fd7ced7fcc13b791a303c560ada2f') in 0.007498 seconds 
+  Import took 0.015147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.653142 seconds.
+  path: Assets/OccaSoftware/Realistic 3D Fireworks Effects/Visual Effects/Firework VFX.vfx
+  artifactKey: Guid(be571d1c849517246b008af7fd43197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Realistic 3D Fireworks Effects/Visual Effects/Firework VFX.vfx using Guid(be571d1c849517246b008af7fd43197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8660391ae864e95260d75eee3c48cde3') in 0.005957 seconds 
+  Import took 0.013570 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007898 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.155 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1156ms)
+		BeginReloadAssembly (152ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (941ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (317ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (341ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (203ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.78 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3352 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.3 MB.
+System memory in use after: 144.5 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3952.
+Total: 3.458000 ms (FindLiveObjects: 0.281000 ms CreateObjectMapping: 0.140800 ms MarkObjects: 3.017400 ms  DeleteObjects: 0.017500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 28.439288 seconds.
+  path: Assets/OccaSoftware/Intraglacial - Snow Effect/VFX Graph Asset/VFX_Snowflakes.vfx
+  artifactKey: Guid(e8b0efa42b0f3204bb633c15fcd9d96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Intraglacial - Snow Effect/VFX Graph Asset/VFX_Snowflakes.vfx using Guid(e8b0efa42b0f3204bb633c15fcd9d96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77cd70098b1bfa342827a3c2f30bc5d9') in 0.033210 seconds 
+  Import took 0.039184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.406471 seconds.
+  path: Assets/OccaSoftware/Intraglacial - Snow Effect/VFX Graph Asset/VFX_Snowflakes.vfx
+  artifactKey: Guid(e8b0efa42b0f3204bb633c15fcd9d96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Intraglacial - Snow Effect/VFX Graph Asset/VFX_Snowflakes.vfx using Guid(e8b0efa42b0f3204bb633c15fcd9d96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '319f6606bcc599e80915cb6dfe850b3f') in 0.004413 seconds 
+  Import took 0.009878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.957343 seconds.
+  path: Assets/OccaSoftware/Realistic 3D Fireworks Effects/Visual Effects/Firework VFX.vfx
+  artifactKey: Guid(be571d1c849517246b008af7fd43197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Realistic 3D Fireworks Effects/Visual Effects/Firework VFX.vfx using Guid(be571d1c849517246b008af7fd43197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c114c2f0e3822d0b58bf7f7f781f1b17') in 0.005120 seconds 
+  Import took 0.012649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.115074 seconds.
+  path: Assets/OccaSoftware/Realistic 3D Fireworks Effects/Visual Effects/VFX_Fireworks.vfx
+  artifactKey: Guid(be571d1c849517246b008af7fd43197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Realistic 3D Fireworks Effects/Visual Effects/VFX_Fireworks.vfx using Guid(be571d1c849517246b008af7fd43197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5322d051f6bcf6a1a71b5c8f0c75c3d6') in 0.011804 seconds 
+  Import took 0.018538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.917477 seconds.
+  path: Assets/OccaSoftware/Realistic 3D Fireworks Effects/Visual Effects/VFX_Firework.vfx
+  artifactKey: Guid(be571d1c849517246b008af7fd43197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Realistic 3D Fireworks Effects/Visual Effects/VFX_Firework.vfx using Guid(be571d1c849517246b008af7fd43197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0760d73d1b6ccaf0327563234f6a50b3') in 0.011331 seconds 
+  Import took 0.017855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.303955 seconds.
+  path: Assets/OccaSoftware/Intraglacial - Snow Effect/Textures
+  artifactKey: Guid(ff1b8ea93f6cb8b44b1af4b74f6a683c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Intraglacial - Snow Effect/Textures using Guid(ff1b8ea93f6cb8b44b1af4b74f6a683c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '217a44b2e564987b3a595872556a9feb') in 0.009771 seconds 
+  Import took 0.015915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.021644 seconds.
+  path: Assets/OccaSoftware/Intraglacial - Snow Effect/Demo Resources
+  artifactKey: Guid(cd086a34d372c9b47b78fa790e3aadd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Intraglacial - Snow Effect/Demo Resources using Guid(cd086a34d372c9b47b78fa790e3aadd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49f1eb33694691f6fad8a2211469b797') in 0.008635 seconds 
+  Import took 0.014677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.418449 seconds.
+  path: Assets/OccaSoftware/Realistic 3D Fireworks Effects/Prefabs/Firework_BlueNeon.prefab
+  artifactKey: Guid(7ee18f92cf3523f43bb4863517ef48d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Realistic 3D Fireworks Effects/Prefabs/Firework_BlueNeon.prefab using Guid(7ee18f92cf3523f43bb4863517ef48d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '687740f18cf0cd3c00d2365652c9342e') in 0.150144 seconds 
+  Import took 0.156195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.852483 seconds.
+  path: Assets/OccaSoftware/Realistic 3D Fireworks Effects/Prefabs/Firework_SlimeSurprise.prefab
+  artifactKey: Guid(07cd8a2247f6a254fb760c0a87ca5855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Realistic 3D Fireworks Effects/Prefabs/Firework_SlimeSurprise.prefab using Guid(07cd8a2247f6a254fb760c0a87ca5855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed5e23fdcbfd2117188840eebde3de39') in 0.023140 seconds 
+  Import took 0.029527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.379357 seconds.
+  path: Assets/OccaSoftware/Realistic 3D Fireworks Effects/Prefabs/Firework_SnowBurst.prefab
+  artifactKey: Guid(0aff0f42088019f4cb6081354fe07f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Realistic 3D Fireworks Effects/Prefabs/Firework_SnowBurst.prefab using Guid(0aff0f42088019f4cb6081354fe07f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd499967182a6651d15ca67884a771cab') in 0.021249 seconds 
+  Import took 0.027887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.384070 seconds.
+  path: Assets/OccaSoftware/Realistic 3D Fireworks Effects/Prefabs/Firework_WarmSunset.prefab
+  artifactKey: Guid(db131f55b11d98e4b83b706599d8b7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Realistic 3D Fireworks Effects/Prefabs/Firework_WarmSunset.prefab using Guid(db131f55b11d98e4b83b706599d8b7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '748a42d00b402ff9bb29d7b3e6f9b8f6') in 0.017580 seconds 
+  Import took 0.023771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.513858 seconds.
+  path: Assets/OccaSoftware/Realistic 3D Fireworks Effects/Scenes/Fireworks Scene.unity
+  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Realistic 3D Fireworks Effects/Scenes/Fireworks Scene.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec8d8cc3b7482ec600e962199b4b47da') in 0.008723 seconds 
+  Import took 0.014570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.465328 seconds.
+  path: Assets/OccaSoftware/Intraglacial - Snow Effect/README.txt
+  artifactKey: Guid(9462c5db296d9df47879d21e9ad60c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Intraglacial - Snow Effect/README.txt using Guid(9462c5db296d9df47879d21e9ad60c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a483c3b656b1a52651bb27ea8a2e7290') in 0.062825 seconds 
+  Import took 0.068619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.422828 seconds.
+  path: Assets/OccaSoftware/Intraglacial - Snow Effect/Scenes
+  artifactKey: Guid(e1f97dd1565f8074ba586446d4802f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Intraglacial - Snow Effect/Scenes using Guid(e1f97dd1565f8074ba586446d4802f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcad361ec12f5b4c235373f78b3b9cdf') in 0.008737 seconds 
+  Import took 0.014680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.094982 seconds.
+  path: Assets/OccaSoftware/Intraglacial - Snow Effect/Scenes/Scene
+  artifactKey: Guid(fc4c484113278904daa490d7102c53ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Intraglacial - Snow Effect/Scenes/Scene using Guid(fc4c484113278904daa490d7102c53ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '268c30152f073182b2fbc08e40715f3e') in 0.008679 seconds 
+  Import took 0.014539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.740905 seconds.
+  path: Assets/OccaSoftware/Realistic 3D Fireworks Effects/Scenes/FireworkDemo_P.unity
+  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Realistic 3D Fireworks Effects/Scenes/FireworkDemo_P.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '536db032f2c7558f84a2c58b8271ea5e') in 0.008401 seconds 
+  Import took 0.014719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.305870 seconds.
+  path: Assets/OccaSoftware/Realistic 3D Fireworks Effects/Visual Effects/VFX_Firework.vfx
+  artifactKey: Guid(be571d1c849517246b008af7fd43197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Realistic 3D Fireworks Effects/Visual Effects/VFX_Firework.vfx using Guid(be571d1c849517246b008af7fd43197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fe0c4dae9e6f674690152e2a79d1624') in 0.003918 seconds 
+  Import took 0.008878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.422805 seconds.
+  path: Assets/OccaSoftware/Realistic 3D Fireworks Effects/Visual Effects/VFX_Firework.vfx
+  artifactKey: Guid(be571d1c849517246b008af7fd43197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Realistic 3D Fireworks Effects/Visual Effects/VFX_Firework.vfx using Guid(be571d1c849517246b008af7fd43197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '579997923a2ac2b912f9457f76b55be3') in 0.006108 seconds 
+  Import took 0.012503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.607939 seconds.
+  path: Assets/OccaSoftware/Realistic 3D Fireworks Effects/Visual Effects/VFX_Firework.vfx
+  artifactKey: Guid(be571d1c849517246b008af7fd43197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Realistic 3D Fireworks Effects/Visual Effects/VFX_Firework.vfx using Guid(be571d1c849517246b008af7fd43197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f991361069203ab9951cf078786713') in 0.005153 seconds 
+  Import took 0.011504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 130.233646 seconds.
+  path: Assets/OccaSoftware/Intraglacial - Snow Effect/VFX Graph Asset
+  artifactKey: Guid(8a4b9e02ff5e6c942a13b4e502ae2c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Intraglacial - Snow Effect/VFX Graph Asset using Guid(8a4b9e02ff5e6c942a13b4e502ae2c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38f73fa380ad09b4fb2db295fc0aa6d7') in 0.008624 seconds 
+  Import took 0.014397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.063359 seconds.
+  path: Assets/OccaSoftware/Realistic 3D Fireworks Effects/Visual Effects/VFX_Firework.vfx
+  artifactKey: Guid(be571d1c849517246b008af7fd43197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Realistic 3D Fireworks Effects/Visual Effects/VFX_Firework.vfx using Guid(be571d1c849517246b008af7fd43197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '772c30b19b3bfd60201cd74761a034f3') in 0.005285 seconds 
+  Import took 0.011948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.875339 seconds.
+  path: Assets/OccaSoftware/Realistic 3D Fireworks Effects/Visual Effects/VFX_Firework.vfx
+  artifactKey: Guid(be571d1c849517246b008af7fd43197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Realistic 3D Fireworks Effects/Visual Effects/VFX_Firework.vfx using Guid(be571d1c849517246b008af7fd43197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c034bb3461a5103640e4dfa97cf115d') in 0.005286 seconds 
+  Import took 0.011389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.455022 seconds.
+  path: Assets/OccaSoftware/Realistic 3D Fireworks Effects/Visual Effects/VFX_Firework.vfx
+  artifactKey: Guid(be571d1c849517246b008af7fd43197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Realistic 3D Fireworks Effects/Visual Effects/VFX_Firework.vfx using Guid(be571d1c849517246b008af7fd43197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a73055742e93ffa0e360ff7c2a603821') in 0.004980 seconds 
+  Import took 0.010878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.441674 seconds.
+  path: Assets/OccaSoftware/Realistic 3D Fireworks Effects/Visual Effects/VFX_Firework.vfx
+  artifactKey: Guid(be571d1c849517246b008af7fd43197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Realistic 3D Fireworks Effects/Visual Effects/VFX_Firework.vfx using Guid(be571d1c849517246b008af7fd43197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f0565a6afca42b15d36a8738ef40830') in 0.004641 seconds 
+  Import took 0.010416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.496291 seconds.
+  path: Assets/OccaSoftware/Realistic 3D Fireworks Effects/Visual Effects/VFX_Firework.vfx
+  artifactKey: Guid(be571d1c849517246b008af7fd43197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Realistic 3D Fireworks Effects/Visual Effects/VFX_Firework.vfx using Guid(be571d1c849517246b008af7fd43197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c01e8515834d7970fea7578b50d0350') in 0.004982 seconds 
+  Import took 0.010874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.354309 seconds.
+  path: Assets/OccaSoftware/Realistic 3D Fireworks Effects/Visual Effects/VFX_Firework.vfx
+  artifactKey: Guid(be571d1c849517246b008af7fd43197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Realistic 3D Fireworks Effects/Visual Effects/VFX_Firework.vfx using Guid(be571d1c849517246b008af7fd43197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d90a1121dbf7c2640bde026cf7c7a7e') in 0.005057 seconds 
+  Import took 0.010926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.164219 seconds.
+  path: Assets/OccaSoftware/Realistic 3D Fireworks Effects/Visual Effects/VFX_Firework.vfx
+  artifactKey: Guid(be571d1c849517246b008af7fd43197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Realistic 3D Fireworks Effects/Visual Effects/VFX_Firework.vfx using Guid(be571d1c849517246b008af7fd43197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ab7a718fabfb61e1ad788c2d43a6049') in 0.004623 seconds 
+  Import took 0.011257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.888277 seconds.
+  path: Assets/OccaSoftware/Realistic 3D Fireworks Effects/Visual Effects/VFX_Firework.vfx
+  artifactKey: Guid(be571d1c849517246b008af7fd43197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Realistic 3D Fireworks Effects/Visual Effects/VFX_Firework.vfx using Guid(be571d1c849517246b008af7fd43197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc07d1962702abeabd2578b2f27faad6') in 0.005094 seconds 
+  Import took 0.010989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.107047 seconds.
+  path: Assets/OccaSoftware/Realistic 3D Fireworks Effects/Visual Effects/VFX_Firework.vfx
+  artifactKey: Guid(be571d1c849517246b008af7fd43197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Realistic 3D Fireworks Effects/Visual Effects/VFX_Firework.vfx using Guid(be571d1c849517246b008af7fd43197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd1ffb3cdc40a20a1ab34e85d6ef42e1') in 0.005793 seconds 
+  Import took 0.011827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.817969 seconds.
+  path: Assets/OccaSoftware/Intraglacial - Snow Effect
+  artifactKey: Guid(be40eb572d725ea4a80e23df1eb9ab0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Intraglacial - Snow Effect using Guid(be40eb572d725ea4a80e23df1eb9ab0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a021eba58ba2cbb162a7ec88083130d') in 0.008776 seconds 
+  Import took 0.014535 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004518 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.907 seconds
+Domain Reload Profiling:
+	ReloadAssembly (907ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (766ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (255ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (276ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (165ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.95 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3351 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.5 MB.
+System memory in use after: 144.7 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3990.
+Total: 3.174600 ms (FindLiveObjects: 0.321300 ms CreateObjectMapping: 0.094100 ms MarkObjects: 2.740200 ms  DeleteObjects: 0.017600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004044 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.804 seconds
+Domain Reload Profiling:
+	ReloadAssembly (804ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (672ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (228ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (238ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (142ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3351 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.5 MB.
+System memory in use after: 144.7 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3998.
+Total: 3.195500 ms (FindLiveObjects: 0.267000 ms CreateObjectMapping: 0.104600 ms MarkObjects: 2.802000 ms  DeleteObjects: 0.020700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 141.325969 seconds.
+  path: Assets/OccaSoftware/Realistic 3D Fireworks Effects/Prefabs/Firework_SnowBurst.prefab
+  artifactKey: Guid(0aff0f42088019f4cb6081354fe07f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Realistic 3D Fireworks Effects/Prefabs/Firework_SnowBurst.prefab using Guid(0aff0f42088019f4cb6081354fe07f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '291d6b6bc3bb488b66fad46a66558973') in 0.243192 seconds 
+  Import took 0.252216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.492637 seconds.
+  path: Assets/OccaSoftware/Realistic 3D Fireworks Effects/Visual Effects/VFX_Firework.vfx
+  artifactKey: Guid(be571d1c849517246b008af7fd43197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Realistic 3D Fireworks Effects/Visual Effects/VFX_Firework.vfx using Guid(be571d1c849517246b008af7fd43197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70aa121a8a042ffacbf11930f7e40509') in 0.009549 seconds 
+  Import took 0.015829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004150 seconds.
+  path: Assets/OccaSoftware/Realistic 3D Fireworks Effects/Scenes/Fireworks SceneSettings.lighting
+  artifactKey: Guid(e53cb520cf8d800449be7661232c4ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Realistic 3D Fireworks Effects/Scenes/Fireworks SceneSettings.lighting using Guid(e53cb520cf8d800449be7661232c4ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e38f35cfea9db70aaafbcff8613a07e7') in 0.008851 seconds 
+  Import took 0.014396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015110 seconds.
+  path: Assets/OccaSoftware/Realistic 3D Fireworks Effects/Shaders/Firework VFX Graph.shadergraph
+  artifactKey: Guid(2df09bc6ff81b9e4ba12d1ba6d55a11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Realistic 3D Fireworks Effects/Shaders/Firework VFX Graph.shadergraph using Guid(2df09bc6ff81b9e4ba12d1ba6d55a11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aaf217f830a01c05b2be9205c55660e') in 0.010598 seconds 
+  Import took 0.017646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008041 seconds.
+  path: Assets/OccaSoftware/Realistic 3D Fireworks Effects/Prefabs/Firework_BlueNeon.prefab
+  artifactKey: Guid(7ee18f92cf3523f43bb4863517ef48d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Realistic 3D Fireworks Effects/Prefabs/Firework_BlueNeon.prefab using Guid(7ee18f92cf3523f43bb4863517ef48d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d220f28423d4cd7fc5eeae25578cb82') in 0.015473 seconds 
+  Import took 0.021579 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

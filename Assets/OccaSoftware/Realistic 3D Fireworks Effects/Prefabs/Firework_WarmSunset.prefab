@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4036180413658404932}
   - component: {fileID: 4036180413658404933}
   m_Layer: 0
-  m_Name: Firework VFX
+  m_Name: Firework_WarmSunset
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
