@@ -14,3 +14,18 @@ Highly customizable. All colors, sizes, and timings are customizable through the
 [![FIREWORKS YOUTUBE VIDEO](http://img.youtube.com/vi/PEirwDqt6jM/0.jpg)](http://www.youtube.com/watch?v=PEirwDqt6jM)
 
 [Learn more about this free Firework Visual Effect asset for Unity on the OccaSoftware website](https://occasoftware.com/fireworks)
+
+
+Download more Top-Rated OccaSoftware Unity Assets
+
+-   [Altos - Volumetric Clouds, Skybox, Day Night Cycle, Sun, Moon, and Stars](https://u3d.as/2Q5g)
+-   [Buto - Volumetric Lighting & Fog](https://u3d.as/2Leg)
+-   [LSPP - Volumetric Lighting, God Rays, and Light Shafts](https://u3d.as/2M0p)
+
+Additional
+
+-   [Join the OccaSoftware Newsletter](https://www.occasoftware.com/newsletter). Be the first to know about new releases, sales, and receive exclusive Unity tips.
+-   [Learn more about OccaSoftware - The Best Assets for Unity](https://www.occasoftware.com/).
+-   Check out our [FAQs](https://www.occasoftware.com/newsletter).
+-   [Read the latest OccaSoftware News](https://www.occasoftware.com/news).
+-   [Watch our newest release videos and tutorials on Youtube](https://www.youtube.com/channel/UCHnL10IiNRf8kXHUMctOylw).
